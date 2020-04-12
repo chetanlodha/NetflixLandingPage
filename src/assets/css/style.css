@@ -1,10 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@400;600;700&display=swap');
+
 body{
     margin: 0;
     background-color: black;
+    color: white;
+    text-rendering: geometricPrecision;
 }
 .landing-section{
     background-image: url("../images/background.jpg"),linear-gradient(0deg, rgba(0, 0, 0, 0.85), rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.85));
-    height: 95vh;
+    height: 100vh;
     background-blend-mode: overlay;
     background-size: cover;
     background-position: center;
@@ -27,3 +31,53 @@ body{
     font-size: small;
 }
 
+.heading-desc{
+    display: flex;
+    flex-direction: column;
+    height: 80%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.text-container{
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: -40px;
+    margin-bottom: 20px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.heading-text1{
+    font-weight: 700;
+    font-size: 3.4rem;
+    line-height: 1.1;
+}
+.heading-text2{
+    font-weight: 400;
+    font-size: 1.8rem;
+}
+.email-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 50%;
+    padding:20px;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+.email{
+    padding: 20px;
+    flex: 6;
+    border: 0;
+    font-size: medium;
+}
+.button-try-now{
+    flex: 3;
+    border: 0;
+    background-color: #E50914;
+    color: white;
+    font-size: 25px;
+}
+.heading-end{
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 1.3rem;
+    font-weight: 400;
+}
