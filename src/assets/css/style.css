@@ -9,4 +9,21 @@ body{
     background-size: cover;
     background-position: center;
 }
+.netflix-logo{
+    margin: 28px 0px;
+    margin-left: 57px;
+    height: 45px;
+}
+.sign-in{
+    float: right;   
+    margin: 28px 0px;
+    margin-right: 50px;
+    padding: 10px 20px;
+    background-color: #E50914;
+    border-radius: 5px;
+    border: 0;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+}
 
